@@ -64,34 +64,45 @@
                         
                         <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
                         <form class="form-modal">
-                            <div class="group-elements">
-                                <label for="name-modal">Имя</label>
-                                <input name="name-feedback" type="text" id="name-modal">
-                                <svg class="svg-form" width="18" height="18">
-                                    <use href="./images/symbol-defs.svg#icon-person"></use>
-                                </svg>
-                            </div>
+                            <div class="group">
+                                <div class="group-elements">
+                                    <input name="name-feedback" type="text" id="name-modal" class="input-modal" placeholder=" ">
+                                    <label for="name-modal" class="label-modal">Имя</label>
+                                    <svg class="svg-form" width="18" height="18">
+                                        <use href="./images/symbol-defs.svg#icon-person"></use>
+                                    </svg>
+                                </div>
+                                
+                                <div class="group-elements">
+                                    <input name="phone-feedback" type="tel" id="phone-modal" class="input-modal" placeholder=" ">
+                                    <label for="phone-modal" class="label-modal">Телефон</label>
+                                    <svg class="svg-form" width="18" height="18">
+                                        <use href="./images/symbol-defs.svg#icon-phone"></use>
+                                    </svg>
+                                </div>
+                                
+                                <div class="group-elements">
+                                    <input name="email-feedback" type="email" id="email-modal" class="input-modal" placeholder=" ">
+                                    <label for="email-modal" class="label-modal">Почта</label>
+                                    <svg class="svg-form" width="18" height="18">
+                                        <use href="./images/symbol-defs.svg#icon-email"></use>
+                                    </svg>
+                                </div>
+                                
+                                <div class="group-elements">
+                                    <label for="comments-modal" class="label-modal-comments">Комментарий</label>
+                                    <textarea name="comments-feedback" id="comments-modal" rows="10" class="textarea-modal"
+                                        placeholder="Введите текст"></textarea>
+                                </div>
 
-                            <div class="group-elements">
-                                <label for="phone-modal">Телефон</label>
-                                <input name="phone-feedback" type="tel" id="phone-modal">
-                                <svg class="svg-form" width="18" height="18">
-                                    <use href="./images/symbol-defs.svg#icon-phone"></use>
-                                </svg>
-                            </div class="group-elements">
-
-                            <div class="group-elements">
-                                <label for="email-modal">Почта</label>
-                                <input name="email-feedback" type="email" id="email-modal">
-                                <svg class="svg-form" width="18" height="18">
-                                    <use href="./images/symbol-defs.svg#icon-email"></use>
-                                </svg>
                             </div>
+                             <label for="check" class="label-check">Соглашаюсь с рассылкой и принимаю<a href=""> Условия договора</a>
+                                <input type="checkbox" id="check" class="check-modal">
+                                <span class="check-icon"></span>
+                            </label>
 
-                            <div class="group-elements">
-                                <label for="comments-modal">Комментарий</label>
-                                <textarea name="comments-feedback" id="comments-modal" rows="10"></textarea>
-                            </div>
+                            <button type="submit" class="button-order">Отправить</button>
+                            
                         </form>
                     </div>
 
