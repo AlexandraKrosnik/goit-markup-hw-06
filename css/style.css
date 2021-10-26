@@ -422,8 +422,7 @@ ul {
 .check-modal:checked + .check-icon {
   border-color: transparent;
   background-color: var(--accent-color);
-  background-image: url(../images/check.svg);
-  /*background-image: url(../images/Vector.svg); */
+  background-image: url(../images/check1.svg);
   background-origin: border-box;
   background-size: contain;
   background-repeat: no-repeat;
